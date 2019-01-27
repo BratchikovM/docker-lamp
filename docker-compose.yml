@@ -15,7 +15,7 @@ services:
     build:
       ./images/php
     volumes:
-      - ./www/cross-studio.ru:/var/www/html
+      - ./www:/var/www/html
       - ./logs/php:/var/log/apache2
     #   - ./images/php/php.ini:/usr/local/etc/php/php.ini
     depends_on:
