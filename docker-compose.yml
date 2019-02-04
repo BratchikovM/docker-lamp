@@ -6,7 +6,7 @@ services:
     ports:
       - 80:80
     volumes:
-      - ./www/cross-studio.ru:/var/www/html
+      - ./www/:/var/www/html
       - ./hosts/my-httpd.conf:/usr/local/apache2/conf/httpd.conf
       - ./logs/httpd:/usr/local/apache2/logs
     depends_on:
