@@ -1,6 +1,6 @@
 # docker-lamp
 
-### Для запуска нужно выполнить команду docer-compose up --build
+### Для запуска нужно выполнить команду docker-compose up --build
 
 ## Значение папок:
 
